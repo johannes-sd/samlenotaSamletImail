@@ -1,0 +1,16 @@
+{
+  "name": "nodesendmailsd",
+  "version": "1.0.0",
+  "description": "Sender vedlegg til mailadresser",
+  "main": "sendSDmail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmj",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "5.0.0",
+    "nodemailer": "^4.3.1"
+  },
+  "devDependencies": {}
+}
