@@ -15,7 +15,7 @@ sendFeilMelding = function(melding) {
     });
     let ErrormailOptions = {
         from: "smtp@sd.no",
-        to: 'jojo@sd.no',
+        to: '',
         subject : '😱 Feil ved sending av flere samlenotaer i en og samme epost',
         text: melding,
         generateTextFromHTML: true,
