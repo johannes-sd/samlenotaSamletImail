@@ -1,23 +1,9 @@
-let filliste = [ '5312GN1017323FA30559386.pdf',
-'5312GN1017323FA30560558.pdf',
-'5312GN1017323FA30561446.pdf',
-'5312GN1017323FA30562447.pdf',
-'5312GN1017323FA30563249.pdf',
-'5312GN1017323FA30564282.pdf',
-'5312GN1017323FA30566619.pdf',
-'5312GN1017323FA30568118.pdf',
-'5312GN1017323FA30569108.pdf',
-'5312GN1017323FA30570299.pdf',
-'5312GN1017323FA30572257.pdf',
-'5312GN1017323FA30573398.pdf',
-'5312GN1017323FA30576608.pdf',
-'5312GN1017323FA30577475.pdf',
-'5312GN1017323FA30577909.pdf' ];
+let filliste = [  ];
 const path = require("path");
 const fs = require('fs-extra'); //requires npm i fs-extra
 
-let arkivsti = "\\\\stranda\\e$\\MailVedlegg\\SendSamletEpost\\arkiv\\";
-let samlenotadir = "\\\\stranda\\e$\\MailVedlegg\\SendSamletEpost\\";
+let arkivsti = "";
+let samlenotadir = "";
 
 filliste.forEach( (fil) =>{
     console.log("arkiverer ", fil);
